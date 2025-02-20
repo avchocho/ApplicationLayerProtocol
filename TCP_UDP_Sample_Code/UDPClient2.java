@@ -40,8 +40,7 @@ public class UDPClient2
             byte[] incomingData = new byte[1024];
             String sentence = "";
         	byte data[] = new byte[1024];
-            byte data1[] = new byte[1024]; //delete
-
+           
             do
             {
             	//construct the client packet & send it
